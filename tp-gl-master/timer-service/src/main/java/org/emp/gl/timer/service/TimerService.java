@@ -9,7 +9,8 @@ package org.emp.gl.timer.service;
  *
  * @author tina
  */
-public interface TimerService extends TimeChangeProvider {
+public interface TimerService extends TimeChangeProvider
+{
 
     int getMinutes();
 
@@ -18,5 +19,4 @@ public interface TimerService extends TimeChangeProvider {
     int getSecondes();
 
     int getDixiemeDeSeconde();
-
 }
